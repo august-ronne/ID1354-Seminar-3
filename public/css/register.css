@@ -1,0 +1,70 @@
+.register-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 2vh;
+}
+
+.form-container {
+    width: 50%;
+    text-align: center;
+}
+
+.form-container > p {
+    margin: 2vh 0 2vh 0;
+}
+
+.register-header {
+    font-size: 3.5vh;
+    color: #fff;
+    background-color: #bcbcbc;
+    padding: 1.5vh;
+    border-radius: 3px;
+    margin: 2vh 0 2vh 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-body {
+    margin-top: 3.5vh;
+}
+
+.form-group-row {
+    font-family: 'Hind', Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5vh;
+}
+
+
+.form-group-row > input {
+    margin-top: 0.5vh;
+    width: 30vh;
+    height: 3vh;
+    border: 1px solid #d0d0d0;
+    font-family: 'Hind', Verdana, sans-serif;
+    color: #656565;
+}
+
+.form-group-button {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group-button > button {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Ubuntu', Verdana, sans-serif;
+    font-size: 2vh;
+    font-weight: 800;
+    border: none;
+    background-color: #f6eb54;
+    border-radius: 5px;
+    border-bottom: 5px solid #debe5d;
+    padding: 1vh;
+    width: 20vh;
+    letter-spacing: 0.3vh;
+    cursor: pointer;
+    text-shadow: -1px 0 goldenrod, 0 1px goldenrod, 1px 0 goldenrod, 0 -1px goldenrod;
+}

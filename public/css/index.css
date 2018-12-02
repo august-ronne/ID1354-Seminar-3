@@ -1,0 +1,51 @@
+.index-content {
+    margin: 10vh 0 0 2vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px solid #f6eb54;
+    -webkit-box-shadow: 0 5px 0 0 rgb(221, 189, 93);
+    -moz-box-shadow: 0 5px 0 0 rgb(221, 189, 93);
+    box-shadow: 0 5px 0 0 rgb(221, 189, 93);
+}
+
+.index-header {
+    font-size: 3.5vh;
+    color: #fff;
+    background-color: #bcbcbc;
+    padding: 1.5vh;
+    border-radius: 3px;
+    margin-bottom: 2vh;
+    font-weight: bold;
+}
+
+.index-body-text {
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.index-body-text > p {
+    font-size: 2.5vh;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.index-body-text a {
+    display: inline-block;
+    width: 25vh;
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 2.5vh;
+    background-color: #d2be65;
+    padding: 1vh;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.index-body-text a:hover {
+    font-size: 2.6vh;
+}
